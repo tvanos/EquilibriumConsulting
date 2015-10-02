@@ -44,10 +44,12 @@
 				</div>
 				<div class="collapse navbar-collapse" id="myNavbar">
 					<ul class="nav navbar-nav">
+						<!-- Current headers for navigations and their relative webpages by relative path (./) --> 
 						<li><a href="./Default.html">Home</a></li>
 						<li><a href="./Projects/Projects.html">Projects</a></li>
 						<li><a href="./Newsletter/Newsletter.html">Newsletter</a></li>
 						<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Contact<span class="caret"></span></a>
+							<!-- List for dropdown submenu -->
 							<ul class="dropdown-menu">
 								<li><a href="./Contact/AboutUs.html">About Us</a></li>
 								<li><a href="./Contact/ContactUs.html">Contact</a></li>
@@ -59,9 +61,10 @@
 		</nav>    
 		
 		<!-- Carousel Main Page -->	
-		<!-- Rather than padding sides of an object - utilizing bootstap's 12 pt grid system --> 
+		<!-- Rather than padding sides of an object - utilizing bootstap's 12 pt grid system with Main Carousel using the centre 8 --> 
 		<div class="row">	
 			<div class="col-sm-2"></div>
+			<!-- center 8 grid units --> 
 			<div class="col-sm-8">
 				<div class="MainPageCarousel">
 					<div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -76,9 +79,10 @@
 							<li data-target="#myCarousel" data-slide-to="6"></li>
 						</ol>
 
-						  <!-- Wrapper for carousel slides -->
+						<!-- Wrapper for carousel slides -->
 						<div class="carousel-inner" role="listbox">
-							<!-- div class for each "item" (image) in carousel -->
+							<!-- div class for each "conatiner" (image) in carousel -->
+							<!-- Links and buttons can be superceeded on images later -->
 							<div class="item active">
 								<img src="./images/Slider_7.jpg" class="img-relative" alt="Welcome"  >
 							</div>
@@ -109,7 +113,8 @@
 								<img src="./images/Slider_6.jpg" class="img-relative" alt="Boats"  >
 							</div>
 							
-						
+							<!-- A standard number of glyphicon icons can be used in Bootstrap/HTML5 -->
+							<!-- left carousel-control/right carousel-control are built classes to be utilized by bootstrap --> 
 							<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
 								<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 								<span class="sr-only">Previous</span>

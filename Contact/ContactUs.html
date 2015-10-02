@@ -15,39 +15,32 @@
 	<!-- <p>The <abbr title="Equilibrium Consulting">EC</abbr>Was founded in 2015</p> -->
 </head>
 <body>
-	<!--
-	<div class="row">
-		<div class="col-sm-8">
-			<div class="container">
-			  <img src="./images/smalllogo.JPG" class="img-rounded" alt="Equilibrium Consulting Logo" width="90" height="40"> 
-			</div>
-		</div>	
-		<div class="col-sm-4"></div>
-	
-	</div>
-	-->
-	<!-- Main <div> class for webpage body -->
+	<!-- Main <div> class for webpage body called "wrapper" -->
 	<div class="wrapper">
-		<!-- Navigation class for affixed navigation bar to top of webpae -->
+		<!-- Navigation class for affixed navigation bar to top of webpage -->
 		<nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197">
 			<div class="container-fluid">
+				<!-- Main navigation utilizing buttons and bootstrap's built-in navbar-toggle and toggle mode = collapse features. -->
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<!-- Icon-bar button type -->
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>                        
 					</button>
-					<!-- Equilibrium Logo -->
+					<!-- Equilibrium Logo with link to Default.html -->
 					<a href="../Default.html">
 						<img src="../images/HiRes_logo_transparentbg.png" class="img-reactive" width="125" height="50">
 					</a>	
 				</div>
 				<div class="collapse navbar-collapse" id="myNavbar">
+					<!-- Current headers for navigations and their relative webpages by relative path (../) --> 
 					<ul class="nav navbar-nav">
 						<li><a href="../Default.html">Home</a></li>
 						<li><a href="../Projects/Projects.html">Projects</a></li>
 						<li><a href="../Newsletter/Newsletter.html">Newsletter</a></li>
 						<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Contact<span class="caret"></span></a>
+							<!-- List for dropdown submenu -->
 							<ul class="dropdown-menu">
 								<li><a href="../Contact/AboutUs.html">About Us</a></li>
 								<li><a href="../Contact/ContactUs.html">Contact</a></li>
@@ -57,12 +50,17 @@
 				</div>
 			</div>
 		</nav>    
+		
+		<!-- Test text to populate web page -->
 		<h2> Contact Us </h2>
 		<h2>Basic Table</h2>
-			<p>Basic Bootstrap Table structure with minor formatting</p>            
+			<p>Basic Bootstrap Table structure with minor formatting</p>     
+			<!-- Div for organizing table for styling -->	
 			<div class="ContactTable">
+				<!-- different table styles are available through bootstrap styling, here is the condensed table with padding in additional style shhet -- style.css --> 
 				<table class="table table-condensed">
 					<thead>
+					<!-- Table header -->
 					<tr>
 						<th>Office Location</th>
 						<th>Contact #</th>
@@ -70,6 +68,7 @@
 					</tr>
 					</thead>
 					<tbody>
+						<!-- table rows with relative info --> 
 						<tr>
 							<td>Sydney</td>
 							<td>+61 390 343 3423</td>
@@ -89,9 +88,14 @@
 				  </table>
 			</div>
 	</div>
+	
+	<!-- Div class for image with additional styling in style.css -->
+	<div class="ContactLogo">
+		<br><br><br><br>
 		<a href="../default.html"> 
-			<img src="../images/biglogo.JPG" class="img-rounded" width="1000" height="400"> 
+			<img src="../images/biglogo.JPG" class="img-relative" width="500" height="200"> 
 		</a>
+	<div>
 	<!--Loading of scripts at end to increase response time -->
 	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
