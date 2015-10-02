@@ -1,0 +1,72 @@
+* {
+margin: 0;
+}
+
+body {
+    position: relative; 
+	margin: 0;
+	background: #ccc;
+}
+.affix {
+    top:0;
+    width: 100%;
+    z-index: 9999 !important;
+}
+
+.affix ~ .container-fluid {
+    position: relative;
+    top: 50px;
+}
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -4em;
+}
+
+/* Option 1 - Display Inline */
+.Navigation li {
+	display: inline-block;
+	margin-right: -4px;
+}
+  
+.MainPageCarousel { 
+	/* top | right | bottom | left */
+	padding: 20px 100px 10px 100px;
+}
+
+.ContactTable { 
+	/*Padding and border around contact table */
+	padding: 30px;
+	border-style: solid;
+    border-width: medium;
+}} 
+
+/*.myCarousel {
+  border-width: 0 0 5pt;
+  border-bottom: 5pt solid black;
+  min-width: 150pt;
+  color: #333333;
+  width: 150pt;
+  max-width: 150pt;
+  background-color: #f4f4f4;
+  float: left;
+  min-height: 45pt;
+  max-height: 45pt;
+  height: 45pt;
+  padding-top: 105pt;
+  font-size: 40pt;
+  text-align: right;
+  font-weight: bold;
+}
+.footer, .push {
+height: 4em;
+}
+*/
+
+
+#section1 {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
+#section2 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
+#section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
+#section41 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
+#section42 {padding-top:50px;height:500px;color: #fff; background-color: #009688;}
