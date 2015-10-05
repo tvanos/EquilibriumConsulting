@@ -5,6 +5,7 @@
 	<html lang="en">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/ico" href="../images/favicon.gif">
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<link rel="stylesheet" href="../StyleSheets/Style.css"/>
 	
@@ -15,39 +16,34 @@
 	<!-- <p>The <abbr title="Equilibrium Consulting">EC</abbr>Was founded in 2015</p> -->
 </head>
 <body>
-	<!--
-	<div class="row">
-		<div class="col-sm-8">
-			<div class="container">
-			  <img src="./images/smalllogo.JPG" class="img-rounded" alt="Equilibrium Consulting Logo" width="90" height="40"> 
-			</div>
-		</div>	
-		<div class="col-sm-4"></div>
-	
-	</div>
-	-->
 	<!-- Main <div> class for webpage body -->
 	<div class="wrapper">
-		<!-- Navigation class for affixed navigation bar to top of webpae -->
+		<!-- Navigation class for affixed navigation bar to top of webpage -->
 		<nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197">
+			<!-- The Container-Fluid class is used here for better resizing of the nav bar depending on the resizing window -->
 			<div class="container-fluid">
+				<!-- The variable (#myNavBar) is being set and the buttons populated with the "icon-bar" style -->
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>                        
 					</button>
-					<!-- Equilibrium Logo -->
+					<!-- Equilibrium Consulting logo -->
 					<a href="../Default.html">
+						<!-- img-reactive for smooth resizing of images with the maximum width and height set --> 
 						<img src="../images/HiRes_logo_transparentbg.png" class="img-reactive" width="125" height="50">
 					</a>	
 				</div>
+				<!-- built in class for collapsing nav-menu button with an unordered list for the submenu --> 
 				<div class="collapse navbar-collapse" id="myNavbar">
 					<ul class="nav navbar-nav">
+						<!-- Current headers for navigations and their relative webpages by relative path (./) --> 
 						<li><a href="../Default.html">Home</a></li>
 						<li><a href="../Projects/Projects.html">Projects</a></li>
 						<li><a href="../Newsletter/Newsletter.html">Newsletter</a></li>
 						<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Contact<span class="caret"></span></a>
+							<!-- List for dropdown submenu -->
 							<ul class="dropdown-menu">
 								<li><a href="../Contact/AboutUs.html">About Us</a></li>
 								<li><a href="../Contact/ContactUs.html">Contact</a></li>
